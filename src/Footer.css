@@ -1,0 +1,27 @@
+footer {
+    background-color: #79ab91;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .footer a {
+    color: #f6f7fb;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .custom-link1 {
+    color: blue;
+    text-decoration: none; 
+    
+  }

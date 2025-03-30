@@ -1,11 +1,13 @@
 import React from "react";
 import "./Header.css";
+import "./Footer.css";
 import Icon from "./icon.jpeg";
 import ReactPlayer from "react-player";
 import carimg from "./homecar.png";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 function Home() {
   return(
+    <>
     <div>
    <header className="header">
       {/* Left Side Icon and Logo */}
@@ -21,10 +23,27 @@ function Home() {
         <Link to="/about" className="nav-link">About Us</Link>
       </nav>
     </header>
-  
-
+    
     </div>
-
+    <div>
+   <img src={carimg} className='img' />
+   <div className="text-overlay">Experience <br/>
+   The best trip ever</div>
+   <button className="transparent-button">Contact Us</button>
+    </div>
+    <div>
+    <footer className="footer">
+      <div className="footer-content">
+        <p>
+          Website: <a href="https://www.justdial.com/Khandwa/Maa-Ambey-Tour-Travels-Taxi-Services-In-Khandwa-Near-Arya-Samaj-School-Khandwa-HO/9999P7332-7332-210512162011-N1Q7_BZDET" target="_blank" rel="noopener noreferrer" className="custom-link1">Ma Ambe Tours and Travels</a>
+        </p>
+        <p>Created by: Your Name</p>
+        <p>© 2025 All Rights Reserved</p>
+       
+      </div>
+    </footer>
+    </div>
+</>
   ); 
 }
 
