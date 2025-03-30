@@ -38,6 +38,7 @@
 .custom-link {
   color: blue;
   text-decoration: none; /* Removes underline */
+  padding-left: 150px;
 }
 
 .custom-link:hover {
@@ -62,7 +63,27 @@
 }
 .left-div {
   position: absolute;
-  left: 50px;
+  left: 15px;
   top: 40%;
   transform: translateY(-50%);
+}
+
+.blue-button {
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 150px;
+  border-radius: 5px;
+}
+
+.blue-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.custom-image {
+  width: 100px;  /* Set width */
+  height: 100px; /* Set height */
+  margin-top: 100px;
 }
