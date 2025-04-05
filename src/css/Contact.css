@@ -1,0 +1,78 @@
+.contact-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Open Button */
+  .open-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .open-button:hover {
+    background-color: darkblue;
+  }
+  
+  /* Popup Overlay */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+  }
+  
+  /* Popup Box */
+  .popup-content {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    height: 220px;
+    color: white;
+    text-align: center;
+  }
+  
+  .popup-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Form Inputs */
+  input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit and Close Buttons */
+  button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .close-button:hover {
+    background-color: darkred;
+  }
+
+  

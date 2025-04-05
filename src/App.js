@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Demo from "./demo"; 
-import Home from "./home"; 
-import AboutUs from "./about"; 
-import Blog from "./blog"; 
+import Demo from "././components/demo";
+import Home from "./components/home"; 
+import AboutUs from "./components/about"; 
+import Blog from "./components/blog"; 
 function App() {
   return (
     <Router>
