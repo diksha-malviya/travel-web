@@ -8,3 +8,28 @@
     align-items: center;
     justify-content: center;
 }
+
+card-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+   margin-left: -300px;
+   width: 250px;
+
+  }
+  
+  .card {
+    background: rgb(245, 223, 245);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top:25px;
+    height: 200px;
+    width: 300px;          /* wider width */
+    margin-left: -150px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  }

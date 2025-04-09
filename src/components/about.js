@@ -26,18 +26,28 @@ function About() {
 </div>
   
   
-
-
-  <div style={{ display: 'flex', gap: 5, margin: 0, padding: 100, width:300 }}>
-      <div style={{ margin: 0, padding: 0 }}>
-      <img src={car1} alt="Image" style={{ width: 100 }} />
-      </div>
-      <div style={{ margin: 0, padding: 0 }}>
-      <img src={car2} alt="Image" style={{ width: 100 }}/>
+ 
+  
+  <div style={{ display: 'flex', gap: 5,marginTop:110, width:300 , marginLeft: 500 }}>
+  <div className="card-container"> 
+      <div className="card">
+        <h2>This is a Card</h2>
+        <p>You can write your text here inside the card.</p>
       </div>
     </div>
-
-
+      <div >
+      <img src={car2} alt="Image" style={{ width: 200, height:250 , marginLeft:5, marginTop:25, borderRadius: 16}}/>
+      </div>
+    </div>
+    <div style={{ display: 'flex', gap: 5, width:300 , marginLeft: 500 }}>
+      <div style={{  }}>
+      <img src={car1} alt="Image" style={{ width: 200 , height:250, borderRadius: 16}} />
+      </div>
+      <div style={{ }}>
+      <img src={car2} alt="Image" style={{ width: 200, height:250, borderRadius: 16}}/>
+      </div>
+      
+    </div>
     </div>
 
   ); 
