@@ -2,8 +2,7 @@ import React from "react";
 import "./../css/Header.css";
 import "./../css/Footer.css";
 import Icon from "./../images/icon.jpeg";
-import ReactPlayer from "react-player";
-import carimg from "./../images/homecar.png"
+import carimg from "./../images/homecar.png";
 import ContactForm from "./contact";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
